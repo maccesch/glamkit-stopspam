@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='glamkit-stopspam',
-    version='0.5.0',
+    version='0.6.0',
     author='Julien Phalip',
     author_email='julien@interaction.net.au',
     description='A Django app to help you filter spam in your forms.',
@@ -19,5 +19,5 @@ setup(
     ],
     include_package_data=True,
     zip_safe=False,
-    install_requires=['setuptools'],
+    install_requires=[],
 )
